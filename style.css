@@ -8,7 +8,7 @@ body{
 
 .navbar {
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
 }
 
@@ -33,7 +33,8 @@ li {
 #hero-main{
     font-size: 48px;
     color: #f9faf8;
-    font-weight: bolder;
+    font-weight: 900;
+    flex-wrap: nowrap;
 }
 
 button {
@@ -47,10 +48,46 @@ button {
 #subtext{
     color: #E5E7EB;
     font-size: 18px;
+    flex-wrap: nowrap;
 }
 
 .header-bottom{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+#info-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding:24px;
+}
+
+.fruit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:24px;
+}
+
+.image{
+    width:250px;
+    height:250px;
+    border-radius:16px;
+    object-fit:cover;
+}
+
+.img-text{
+    font-size: 18px;
+    color: #1F2937;
+    text-align:center;
 }
