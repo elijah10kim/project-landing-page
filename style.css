@@ -151,3 +151,14 @@ button {
     font-weight: bold;
 }
 
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+a{
+    color:#E5E7EB;
+}
