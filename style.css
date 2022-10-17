@@ -127,6 +127,8 @@ button {
     padding-right: 100px;
     padding-left: 100px;
     align-items: center;
+    justify-content: space-between;
+    width: 40em;
 }
 
 .sign-up-text{
@@ -143,10 +145,9 @@ button {
 }
 
 #sign-up-button {
-    margin-left: 80px;
     border: 2px solid white;
     height: 40px;
-    width: 80px;
+    width: 100px;
     font-weight: bold;
 }
 
