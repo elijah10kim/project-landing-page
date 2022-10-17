@@ -111,3 +111,42 @@ button {
     align-self: flex-end;
     padding-right: 100px;
 }
+
+.sign-up-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.blue-box{
+    background-color: #3882F6;
+    padding: 24px;
+    display: flex;
+    border-radius: 14px;
+    padding-right: 100px;
+    padding-left: 100px;
+    align-items: center;
+}
+
+.sign-up-text{
+    display: flex;
+    flex-direction: column;
+    color:#E5E7EB;
+    font-size:16px;
+}
+
+#action-text{
+    font-size:20px;
+    font-weight: bolder;
+    margin-bottom: -8px;
+}
+
+#sign-up-button {
+    margin-left: 80px;
+    border: 2px solid white;
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+}
+
