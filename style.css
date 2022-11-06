@@ -1,9 +1,9 @@
 body{
     font-family: Roboto;
+    margin: 0;
 }
 .header {
     background-color: #1F2937;
-    /*display: flex;*/
 }
 
 .navbar {
@@ -19,6 +19,7 @@ ul {
     font-size: 18px;
     justify-content: space-between;
     padding: 10px;
+    padding-top: 0px;
 }
 
 li {
@@ -27,34 +28,52 @@ li {
 #logo {
     color: #f9faf8;
     font-size: 24px;
-    align-self: flex-start;
 }
 
 #hero-main{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    flex-wrap: nowrap;
+    margin-bottom: -15px;
+    width: 80%;
 }
 
-button {
+#firstsignupbutton {
     background-color: #3882F6;
     color: white;
     border-radius: 5px;
     border: none;
     padding: 5px;
+    width: 100px;
 }
 
 #subtext{
     color: #E5E7EB;
     font-size: 18px;
-    flex-wrap: nowrap;
+    width:55%;
+
 }
 
 .header-bottom{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items:center;
+    padding-bottom: 20px;
+}
+
+.header-left{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    padding-left: 90px;
+}
+
+#header-img{
+    width:450px;
+    height:300px;
+    border-radius:16px;
+    object-fit:cover;
 }
 
 #info-header{
@@ -149,6 +168,8 @@ button {
     height: 40px;
     width: 100px;
     font-weight: bold;
+    border-radius: 5px;
+    border: none;
 }
 
 .footer{
